@@ -1,0 +1,21 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --gold: #C9A84C;
+  --gold-light: #E8CB7A;
+  --gold-dark: #8B6914;
+  --navy: #0D1B2A;
+  --cream: #F8F3E8;
+  --blue-sash: #3BA3D4;
+}
+
+body {
+  background: var(--navy);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 2rem;
+  overflow-x: hidden;
+}
